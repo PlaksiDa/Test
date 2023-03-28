@@ -33,25 +33,3 @@ void PrintArr(string[] arr)
 }
 
 PrintArr(SortArrLess(ReadData("Введите элементы массива через пробел (hello 2 -2):"), 3));
-
-// string[] SortArrLess(string str, int n)
-// {   // Поиск количества элементов, длина которых <=n
-//     string[] inArr = str.Split(" ");
-//     int j = 0;
-//     for (int i = 0; i < inArr.Length; i++)
-//     {
-//         if (inArr[i].Length <= n) j++;
-//     }
-//     // Заполнение массива элементами <=n
-//     string[] outArr = new string[j];
-//     int k = 0;
-//     for (int i = 0; i < inArr.Length; i++)
-//     {
-//         if (inArr[i].Length <= n)
-//         {
-//             outArr[k] = inArr[i];
-//             k++;
-//         }
-//     }
-//     return outArr;
-// }
